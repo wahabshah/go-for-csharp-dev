@@ -1,1 +1,1 @@
-FROM gitpod/workspace-dotnet-8
+FROM gitpod/workspace-dotnet-8:2024-01-24-09-19-42
