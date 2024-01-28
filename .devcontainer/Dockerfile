@@ -1,1 +1,1 @@
-FROM gitpod/workspace-full-vnc:2024-01-24-09-19-42
+FROM gitpod/workspace-dotnet-8
