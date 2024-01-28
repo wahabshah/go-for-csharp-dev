@@ -2,7 +2,7 @@ CodeTour: Go for the C# Developer
 =======================
 The aim of this project is to provide an overview of Go (golang) language features for developers familiar with the C# language.
 
-<a href="https://gitpod.io/#https://github.com/wahabshah/go-for-csharp-dev/tree/develop" rel="nofollow noopener noreferrer" target="_blank" class="after:hidden"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod"></a>
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitpod.io/#https://github.com/wahabshah/go-for-csharp-dev/tree/develop)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=develop&repo=749514118&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestEurope)
 
