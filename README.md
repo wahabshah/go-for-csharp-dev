@@ -46,7 +46,10 @@ The Go program is a console application that calls the .NET service and displays
 
 Running the Service
 -------------------  
-The **.NET service** can be started from the command line by navigating to the ".../net-people-service" directory and typing `dotnet run`. This provides endpoints at the following locations:
+The **.NET service** can be started from the command line by 
+  * navigating to the ".../net-people-service" directory and typing `dotnet run`. 
+  * typing `dotnet run --project net-people-service`
+* This provides endpoints at the following locations:
 
 * http://localhost:9874/people  
 Provides a list of "Person" objects. This service will delay for 3 seconds before responding. Sample result:
@@ -73,7 +76,9 @@ Provides an individual "Person" record based on the "id" value. This service wil
 
 The Go Service
 ---------------------
-The **Go service** can be started from the command line by navigating to the ".../go-people-service" directory and typing `go build` to build the service, then typing `.\go-people-service.exe` to run the service in Windows, or `./go-people-service` to run the service in Linux or macOS.  
+The **Go service** can be started from the command line by 
+  * navigating to the ".../go-people-service" directory and typing `go build` to build the service, then typing `.\go-people-service.exe` to run the service in Windows, or `./go-people-service` to run the service in Linux or macOS. 
+  * typing `go run ./async`
 
 Note: This service uses the same endpoints as the .NET service (on localhost:9874). You will want to run the .NET service **or** the Go service, but not both.
 
